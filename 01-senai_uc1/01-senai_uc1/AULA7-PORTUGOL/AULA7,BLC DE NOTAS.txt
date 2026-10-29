@@ -1,0 +1,58 @@
+PORTUGOL:
+
+escreva = saída de dados (print)
+leia = entrada de dados (input)
+\n= pula linha
+// = para comentários
+escolha=funciona como armazenamento de dados
+pare=função da {}
+caso=se
+escolha=os casos estão dentro do escolha
+VARIAVEIS PORTUGOL:
+
+inteiro = números inteiros (int)
+real = números decimais (float)
+logico = verdadeiro ou falso
+cadeia = cadeia de caracteres (str)
+caracter = armazena 1 caracter
+const = variável que n pode ser mudada
+enquanto=continua fazendo as coisas ate parar
+
+{contador=se for fazer um contador coloque o tempo
+maior< ou menor>  tempo
+para parar escreva (contador = +1)}
+
+limpa()=limpa a tela enquanto há operação rodando,NAO MOSTRA A ANTERIOR
+
+ inclua biblioteca Util-->u=biblioteca de funcionalidade,f1
+
+para=laço de repetição,tem que coloca entrada e saída.
+
+vetor= []=armazena vários dados de uma vez,o vetor conta o numero 0 como o primeiro numero a ser contabilizado,caso queria fazer algo ao contrario terá que começar com um numero a menos,exemplo estou lendo um vetor com [10]
+para ler ele ao contrario teria que começar com [9]
+
+
+
+
+OPERAÇÕES:
+
++ = soma
+- = subtração
+/ = divisão
+* = multiplicação
+% = porcentil
+= = atribuir valor
+== = equivalência
+!= = diferente
+>= = maior ou igual
+<= = menor ou igual
+
+
+CONDIÇÕES
+
+se = atribuir valor verdadeiro
+senão = atribuir valor falso
+
+FORMULAS
+
+media 2 fatores = md=((n1+n2)/2)
