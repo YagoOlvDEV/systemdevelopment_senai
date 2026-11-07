@@ -1,11 +1,14 @@
+//Trabalho em grupo - Henrique Christ e Yago Oliveira
+
 programa
 {
+	//Parâmetro global e importação de biblioteca
 	inclua biblioteca Util
-	
 	
 inteiro assentos [10][12]
 
-	
+
+	//Função de início serve para orquestrar o fluxo principal
 	funcao inicio()
 	{
 	
@@ -17,7 +20,7 @@ inteiro assentos [10][12]
 
 	}	
 	
-	
+	//Função para deixar o " 0 " como padrão em todos os assentos
 	funcao iniciar(){
 		para (inteiro linha=0;linha<10;linha++){
 				para (inteiro coluna=0;coluna<12;coluna++){
@@ -27,12 +30,16 @@ inteiro assentos [10][12]
 				escreva("\n")
 		}
 	}
+
+	//Função para fazer a reserva do assento
 	funcao reservar(){
 				inteiro cadeira, fileira
 				cadeia repetir
 				faca{
 					escreva("Digite a fileira e o assento:","\n")
 					leia(cadeira,fileira)
+						
+						//Utilizando o Se para impedir o usuário de inserir uma posição inválida
 						se (cadeira>10 ou fileira>12){
 						escreva("Posição Inválida","\n")
 						escreva("Reiniciando...","\n")
@@ -65,11 +72,15 @@ inteiro assentos [10][12]
 				 enquanto(repetir=="S" ou repetir=="s")
 	}
 
+	
+	//Função para padronizar a limpeza do código
 	funcao timer(){
 		Util.aguarde(2000)
 		limpa()
 	}
 
+	
+	//Função para imprimir cadeiras ocupadas
 	funcao imprimir_cadeira(){
 		para (inteiro linha=0;linha<10;linha++){
 			para (inteiro coluna=0;coluna<12;coluna++){
